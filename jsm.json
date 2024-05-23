@@ -1,9 +1,9 @@
 {
-	"spider":"https://pan.shangui.cc/f/38X7Sv/pg.jar",
+	"spider":"https://pan.shangui.cc/f/MQK1Cy/pg.jar",
 	"sites":[
 		{
 			"key": "豆瓣",
-			"name": "🍥┃豆瓣┃公众号:『应用边界』提供，由PG大佬本地包生成🍥",
+			"name": "豆瓣",
 			"type": 3,
 			"api": "csp_Douban",
 			"searchable": 0,
@@ -495,7 +495,7 @@
 			"changeable": 0,
 			"filterable": 1
 		},
-		{ "key": "Ikanbot", "name": "爱看机器人", "type": 3, "api": "csp_Ikanbot", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1 , "ext":"https://v.ikanbot.com$$$proxy"},
+		{ "key": "Ikanbot", "name": "爱看机器人", "type": 3, "api": "csp_Ikanbot", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1 , "ext":"https://v.aikanbot.com$$$proxy"},
 		{ "key":"csp_YingShi","name":"影视|海外","type":3,"api":"csp_YingShi","ext":"proxy"},
 		{ 
 			"key": "泥巴", 
