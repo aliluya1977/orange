@@ -1,5 +1,5 @@
 {
-	"spider":"http://43.134.172.189:666/f/j9Im/pg.jar",
+	"spider":"http://43.134.172.189:666/f/q0RhP/pg.jar",
 	"sites":[
 		{
 			"key": "豆瓣",
@@ -20,7 +20,7 @@
 			"changeable": 0,
 			"ext":"./lib/tokenm.json"
 		},
-		{"key":"yydsys","name":"玩你老哥|网盘","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$./lib/wogg.json"},
+		{"key":"yydsys","name":"玩你老哥|网盘","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$./lib/wogg.json"},		
 		{"key":"Local","name":"本地","type":3,"api":"csp_Local"},
 		{"key":"PushShare","name":"我的资源分享","type":3, "api":"csp_PushShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/pushshare.txt$$$db$$$1",
 			"style": {
@@ -92,8 +92,11 @@
 			"quickSearch": 0,
 			"changeable": 0,
 			"ext":{
-				"type":"直播#新闻#音乐#体育#剧集#电影#8K#4K#HDR#movie#music#documentary",
-				"proxy":"proxy"
+				"json":"./lib/youtube.json",
+				"type":"直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",
+				"proxy":"proxy",
+				"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
+				"codecs":""
 			},
 			"style": {
 				"type": "rect",
